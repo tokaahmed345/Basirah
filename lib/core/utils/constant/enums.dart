@@ -1,0 +1,1 @@
+enum AssistantStatus { speaking, listening, processing, }
