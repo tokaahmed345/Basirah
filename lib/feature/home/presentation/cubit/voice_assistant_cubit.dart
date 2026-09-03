@@ -112,7 +112,7 @@ class VoiceAssistantCubit extends Cubit<VoiceAssistantState> {
     }
 
     emit(state.copyWith(status: AssistantStatus.processing, lastQuestion: question));
-    await _tts.speak("Let me see");
+    await _tts.speak("Let me see,checking now");
 
     if (cameraController == null || !cameraController!.value.isInitialized) {
       await _speakResult('Sorry, camera is not ready.');
