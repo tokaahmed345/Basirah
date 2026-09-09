@@ -4,7 +4,7 @@
 
 
   <section>
-    <h2> 📖 Overview</h2>
+    <h2>  📖 Overview</h2>
     <p>
       <b>👁️ Basirah</b> is an app that uses the camera and generative AI to help blind or low-vision users
       understand their surroundings naturally and instantly, without complicated buttons or steps.
